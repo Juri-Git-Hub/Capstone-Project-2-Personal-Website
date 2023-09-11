@@ -1,0 +1,24 @@
+.navi {
+    background-color: #43658B;
+    color: white;
+}
+
+.header {
+    height: 75vh;
+    width: 100vw;
+    background-color: 4E89AE;
+}
+
+.hero-div {
+    height: 75vh;
+    background-color: #ED6663;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    background-color:FFA372;
+    border-radius: 10px;
+    border-color: FFA372;
+}
+
