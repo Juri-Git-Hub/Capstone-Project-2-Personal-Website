@@ -10,7 +10,7 @@
 }
 
 .hero-div {
-    height: 75vh;
+    height: 100vh;
     background-color: #ED6663;
     display: flex;
     align-items: center;
@@ -21,4 +21,19 @@
     border-radius: 10px;
     border-color: FFA372;
 }
+
+.lebenslauf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+}
+
+.lebenslauf-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
 
