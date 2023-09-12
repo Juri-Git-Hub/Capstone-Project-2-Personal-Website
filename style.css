@@ -19,7 +19,8 @@
 .hero {
     background-color:FFA372;
     border-radius: 10px;
-    border-color: FFA372;
+    border-color: #FFA372;
+    background-color: #ED6663;
 }
 
 .lebenslauf {
@@ -36,4 +37,12 @@
     justify-content: center;
 }
 
-
+@media (max-width: 700px) {
+    .lebenslauf {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .hero img {
+        height: 500px;
+    }
+}
